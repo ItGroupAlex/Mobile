@@ -21,15 +21,15 @@
 
  4. Сделать скриншот запущенного приложения todolist и сразу скопировать на компьютер в одной команде.
 
-`.\adb shell screencap /sdcard/screencap.png | .\adb pull /sdcard/screencap.png`
+[`.\adb shell screencap /sdcard/screencap.png | .\adb pull /sdcard/screencap.png`](https://github.com/ItGroupAlex/Mobile/blob/main/HW%20ADB/screencap.png "screencap.png")    
 
  5. Вывести в консоль логи приложения todolist
 
  6. Скопировать логи приложения todolist на компьютер.
 
-`.\adb logcat -d | findstr com.android.todolist > todolist.log`
+[`.\adb logcat -d | findstr com.android.todolist > todolist.log`](https://github.com/ItGroupAlex/Mobile/blob/main/HW%20ADB/todolist_ADB.log "todolist_ADB.log")       
 
-- но сбивается, поэтому лучше через AndroidStudio
+- но сбивается, поэтому лучше [через AndroidStudio](https://github.com/ItGroupAlex/Mobile/blob/main/HW%20ADB/todolist_AndroidStudio.log "todolist_AndroidStudio.log")    
 
  7. Удалить приложение todolist с телефона через ADB
 
